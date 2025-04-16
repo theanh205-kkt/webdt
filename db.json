@@ -1,34 +1,288 @@
 {
   "products": [
     {
-      "name": "samsung s25",
-      "price": 12,
-      "quantity": 123123,
+      "id": "1",
+      "name": "iPhone 15 Pro Max",
+      "price": 34990000,
+      "quantity": 50,
+      "categoryID": 1,
+      "image": "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/i/p/iphone-15-pro-max_3.png",
+      "description": "iPhone 15 Pro Max với chip A17 Pro mạnh mẽ, camera chuyên nghiệp 48MP, màn hình OLED 6.7 inch Super Retina XDR"
+    },
+    {
+      "id": "4",
+      "name": "Samsung Galaxy Z Fold5",
+      "price": 32990000,
+      "quantity": 30,
       "categoryID": 2,
-      "image": "https://cdn.tgdd.vn/Products/Images/42/333359/samsung-galaxy-s25-plus-blue-thumb-600x600.jpg",
-      "description": "xczxc",
-      "id": 2
+      "image": "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/g/a/galaxy-z-fold-5-xanh-1.jpg",
+      "description": "Samsung Galaxy Z Fold5 với màn hình gập 7.6 inch, Snapdragon 8 Gen 2, camera chuyên nghiệp"
+    },
+    {
+      "id": "5",
+      "name": "iPhone 14 Pro Max",
+      "price": 29990000,
+      "quantity": 40,
+      "categoryID": 1,
+      "image": "https://cdn.hoanghamobile.com/i/preview/Uploads/2022/09/08/44444.png",
+      "description": "iPhone 14 Pro Max với chip A16 Bionic, camera 48MP, màn hình Always-On và Dynamic Island"
+    },
+    {
+      "id": "6",
+      "name": "Samsung Galaxy S23 Ultra",
+      "price": 26990000,
+      "quantity": 35,
+      "categoryID": 2,
+      "image": "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/s/2/s23-ultra-tim.png",
+      "description": "Samsung Galaxy S23 Ultra với Snapdragon 8 Gen 2, camera 200MP, S Pen tích hợp"
+    },
+    {
+      "id": "7",
+      "name": "iPhone 13",
+      "price": 16990000,
+      "quantity": 70,
+      "categoryID": 1,
+      "image": "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/1/4/14_1_9_2_9.jpg",
+      "description": "iPhone 13 với chip A15 Bionic, camera kép 12MP, màn hình Super Retina XDR"
+    },
+    {
+      "id": "8",
+      "name": "Samsung Galaxy A54",
+      "price": 9990000,
+      "quantity": 80,
+      "categoryID": 2,
+      "image": "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/s/m/sm-a546_galaxy_a54_5g_awesome_violet_front.png",
+      "description": "Samsung Galaxy A54 với màn hình Super AMOLED 120Hz, camera 50MP, pin 5000mAh"
     }
   ],
   "categories": [
     {
-      "id": 1,
-      "name": "iphone"
+      "id": "1",
+      "name": "iPhone"
     },
     {
-      "id": 2,
-      "name": "samsung"
+      "id": "2",
+      "name": "Samsung"
     }
   ],
   "users": [
     {
-      "id": 2,
-      "email": "cuong@mail.com",
+      "id": "1",
+      "email": "caotheanh29032005@gmail.com",
       "password": "123456",
-      "fullname": "Olivier",
-      "sex": "Nam",
+      "fullName": "Admin",
+      "phone": "0327497662",
+      "role": "admin"
+    },
+    {
+      "id": "2",
+      "email": "user@gmail.com",
+      "password": "123456",
+      "fullName": "User Test",
       "phone": "0898645513",
       "role": "user"
+    },
+    {
+      "fullName": "anhhh",
+      "email": "anhgt@gmail.com",
+      "phone": "0354903333",
+      "password": "2468910",
+      "confirm": "2468910",
+      "role": "user",
+      "createdAt": "2025-04-12T04:01:51.965Z",
+      "id": "3"
+    }
+  ],
+  "cart": [],
+  "orders": [
+    {
+      "items": [
+        {
+          "productId": 5,
+          "name": "iPhone 14 Pro Max",
+          "price": 29990000,
+          "image": "https://cdn.hoanghamobile.com/i/preview/Uploads/2022/09/08/44444.png",
+          "quantity": 2,
+          "id": 1
+        },
+        {
+          "productId": 1,
+          "name": "iPhone 15 Pro Max",
+          "price": 34990000,
+          "image": "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/i/p/iphone-15-pro-max_3.png",
+          "quantity": 2,
+          "id": 2
+        },
+        {
+          "productId": 6,
+          "name": "Samsung Galaxy S23 Ultra",
+          "price": 26990000,
+          "image": "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/s/2/s23-ultra-tim.png",
+          "quantity": 1,
+          "id": 3
+        },
+        {
+          "productId": 4,
+          "name": "Samsung Galaxy Z Fold5",
+          "price": 32990000,
+          "image": "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/g/a/galaxy-z-fold-5-xanh-1.jpg",
+          "quantity": 1,
+          "id": 4
+        }
+      ],
+      "customerInfo": {
+        "fullName": "thế anh",
+        "phone": "0327497662",
+        "address": "hà nôi",
+        "note": "ládjwud"
+      },
+      "totalAmount": 189940000,
+      "status": "delivered",
+      "createdAt": "2025-04-12T03:31:00.557Z",
+      "updatedAt": "2025-04-12T03:34:01.599Z",
+      "id": "1"
+    },
+    {
+      "items": [
+        {
+          "productId": 4,
+          "name": "Samsung Galaxy Z Fold5",
+          "price": 32990000,
+          "image": "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/g/a/galaxy-z-fold-5-xanh-1.jpg",
+          "quantity": 1,
+          "id": 4
+        }
+      ],
+      "customerInfo": {},
+      "paymentMethod": "cod",
+      "totalAmount": 32990000,
+      "status": "delivered",
+      "createdAt": "2025-04-12T03:37:49.394Z",
+      "updatedAt": "2025-04-12T03:44:58.598Z",
+      "id": "2"
+    },
+    {
+      "items": [
+        {
+          "productId": 4,
+          "name": "Samsung Galaxy Z Fold5",
+          "price": 32990000,
+          "image": "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/g/a/galaxy-z-fold-5-xanh-1.jpg",
+          "quantity": 1,
+          "id": 4
+        }
+      ],
+      "customerInfo": {},
+      "paymentMethod": "cod",
+      "totalAmount": 32990000,
+      "status": "pending",
+      "createdAt": "2025-04-12T03:40:52.177Z",
+      "updatedAt": "2025-04-12T03:40:52.178Z",
+      "id": "3"
+    },
+    {
+      "userId": 1,
+      "items": [
+        {
+          "productId": 5,
+          "name": "iPhone 14 Pro Max",
+          "price": 29990000,
+          "image": "https://cdn.hoanghamobile.com/i/preview/Uploads/2022/09/08/44444.png",
+          "quantity": 1,
+          "id": 1
+        }
+      ],
+      "customerInfo": {},
+      "paymentMethod": "banking",
+      "totalAmount": 29990000,
+      "status": "pending",
+      "createdAt": "2025-04-12T04:00:20.800Z",
+      "updatedAt": "2025-04-12T04:00:20.800Z",
+      "id": "4"
+    },
+    {
+      "userId": "2",
+      "items": [
+        {
+          "productId": 5,
+          "name": "iPhone 14 Pro Max",
+          "price": 29990000,
+          "image": "https://cdn.hoanghamobile.com/i/preview/Uploads/2022/09/08/44444.png",
+          "quantity": 1,
+          "id": "1"
+        },
+        {
+          "id": "b80e",
+          "productId": "6",
+          "name": "Samsung Galaxy S23 Ultra",
+          "price": 26990000,
+          "image": "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/s/2/s23-ultra-tim.png",
+          "quantity": 1
+        },
+        {
+          "productId": "5",
+          "name": "iPhone 14 Pro Max",
+          "price": 29990000,
+          "quantity": 1,
+          "image": "https://cdn.hoanghamobile.com/i/preview/Uploads/2022/09/08/44444.png",
+          "id": "-Uz350g"
+        }
+      ],
+      "customerInfo": {},
+      "paymentMethod": "cod",
+      "totalAmount": 86970000,
+      "status": "delivered",
+      "createdAt": "2025-04-15T00:33:27.178Z",
+      "updatedAt": "2025-04-15T00:34:15.092Z",
+      "id": "Aalpzfw"
+    },
+    {
+      "userId": "1",
+      "items": [
+        {
+          "productId": "5",
+          "name": "iPhone 14 Pro Max",
+          "price": 29990000,
+          "image": "https://cdn.hoanghamobile.com/i/preview/Uploads/2022/09/08/44444.png",
+          "quantity": 1,
+          "id": 1
+        }
+      ],
+      "customerInfo": {},
+      "paymentMethod": "cod",
+      "totalAmount": 29990000,
+      "status": "pending",
+      "createdAt": "2025-04-15T01:26:53.942Z",
+      "updatedAt": "2025-04-15T01:26:53.942Z",
+      "id": "kTug7Ih"
+    },
+    {
+      "userId": "1",
+      "items": [
+        {
+          "productId": "5",
+          "name": "iPhone 14 Pro Max",
+          "price": 29990000,
+          "image": "https://cdn.hoanghamobile.com/i/preview/Uploads/2022/09/08/44444.png",
+          "quantity": 1,
+          "id": 1
+        },
+        {
+          "productId": "8",
+          "name": "Samsung Galaxy A54",
+          "price": 9990000,
+          "image": "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/s/m/sm-a546_galaxy_a54_5g_awesome_violet_front.png",
+          "quantity": 1,
+          "id": 2
+        }
+      ],
+      "customerInfo": {},
+      "paymentMethod": "cod",
+      "totalAmount": 39980000,
+      "status": "pending",
+      "createdAt": "2025-04-16T08:21:28.527Z",
+      "updatedAt": "2025-04-16T08:21:28.536Z",
+      "id": "OvA6-Or"
     }
   ]
 }

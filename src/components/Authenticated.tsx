@@ -6,7 +6,11 @@ type Props = {
 };
 
 const Authenticated = ({ children, fallback }: Props) => {
-  const isAuthenticated = true;
+  // Kiểm tra xem có user trong localStorage không
+  const user = localStorage.getItem('user');
+  const isAuthenticated = !!user;
+  
   return <>{isAuthenticated ? children : fallback}</>;
 };
+
 export default Authenticated;
